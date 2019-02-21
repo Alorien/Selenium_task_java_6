@@ -1,0 +1,17 @@
+pages\BasePage.class
+steps\ProductPageSteps.class
+pages\AllProductPage.class
+pages\ProductPage.class
+util\TestProperties.class
+steps\SearchPageSteps.class
+util\AllureReporter.class
+steps\BaseSteps.class
+steps\ScenarioSteps.class
+pages\MainPage.class
+pages\SearchPage.class
+steps\MainPageSteps.class
+steps\AllProductPageSteps.class
+pages\MarketPage.class
+pages\FilterPage.class
+steps\MarketPageSteps.class
+steps\FilterPageSteps.class

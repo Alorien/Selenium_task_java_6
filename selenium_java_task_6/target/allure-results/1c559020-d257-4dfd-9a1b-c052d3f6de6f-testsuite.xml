@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1550769591571" stop="1550769643946" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Страхование</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1550769591589" stop="1550769643943" status="passed">
+            <name>Заявка на ДМС</name>
+            <title>Заявка на ДМС</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1550769607877" stop="1550769610482" status="passed">
+                    <name>Когда переход в меню:"Маркет"</name>
+                    <title>Когда переход в меню:"Маркет"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769608079" stop="1550769610481" status="passed">
+                            <name>selectMenuItem[Маркет]</name>
+                            <title>Переход в : Маркет</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769610482" stop="1550769612605" status="passed">
+                    <name>Когда выбрано меню:"Электроника"</name>
+                    <title>Когда выбрано меню:"Электроника"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769610483" stop="1550769612605" status="passed">
+                            <name>enterElemSearch[Электроника]</name>
+                            <title>Выбор элемента меню : Электроника</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769612606" stop="1550769615860" status="passed">
+                    <name>Когда выбрано подменю:"Наушники и Bluetooth-гарнитуры"</name>
+                    <title>Когда выбрано подменю:"Наушники и Bluetooth-гарнитуры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769612606" stop="1550769615860" status="passed">
+                            <name>searchBtnClick[Наушники и Bluetooth-гарнитуры]</name>
+                            <title>Выбор подэлемента меню : Наушники и Bluetooth-гарнитуры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769615860" stop="1550769617870" status="passed">
+                    <name>Когда выбрано все фильтры:"Все фильтры"</name>
+                    <title>Когда выбрано все фильтры:"Все фильтры"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769615861" stop="1550769617870" status="passed">
+                            <name>clickFilter[Все фильтры]</name>
+                            <title>Переход в : Все фильтры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769617870" stop="1550769617978" status="passed">
+                    <name>Когда заполнена цена:"5000"</name>
+                    <title>Когда заполнена цена:"5000"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769617871" stop="1550769617978" status="passed">
+                            <name>fillPrice[5000]</name>
+                            <title>Заполнение поля цены : 5000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769617978" stop="1550769618085" status="passed">
+                    <name>Когда выбран производитель:"Beats"</name>
+                    <title>Когда выбран производитель:"Beats"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769617979" stop="1550769618085" status="passed">
+                            <name>clickDevModel[Beats]</name>
+                            <title>Нажатие на чекбокс : Beats</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769618085" stop="1550769619727" status="passed">
+                    <name>Когда кнопка Применить фильтр:"Применить фильтр"</name>
+                    <title>Когда кнопка Применить фильтр:"Применить фильтр"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769618086" stop="1550769619727" status="passed">
+                            <name>clickDoneFilter[Применить фильтр]</name>
+                            <title>Кнопка применить фильтр: Применить фильтр</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769619728" stop="1550769639748" status="passed">
+                    <name>Когда проверка количества элементов:"12"</name>
+                    <title>Когда проверка количества элементов:"12"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769619730" stop="1550769639748" status="passed">
+                            <name>chooseMarket[12]</name>
+                            <title>Проверка количество элементов: 12</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769639748" stop="1550769639770" status="passed">
+                    <name>Когда название элемента запомнено:"Запомнено"</name>
+                    <title>Когда название элемента запомнено:"Запомнено"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769639749" stop="1550769639770" status="passed">
+                            <name>saveElem[Запомнено]</name>
+                            <title>Сохранение первого элемента: Запомнено</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769639770" stop="1550769640140" status="passed">
+                    <name>Когда ввод заполненного элемента:"Ввод"</name>
+                    <title>Когда ввод заполненного элемента:"Ввод"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769639771" stop="1550769640140" status="passed">
+                            <name>enterElemSearch[Ввод]</name>
+                            <title>Ввод первого элемента в поисковую строку : Ввод</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769640140" stop="1550769642790" status="passed">
+                    <name>Когда нажатие кнопки Поиск:"Поиск"</name>
+                    <title>Когда нажатие кнопки Поиск:"Поиск"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769640141" stop="1550769642790" status="passed">
+                            <name>searchBtnClick[Поиск]</name>
+                            <title>Нажатие кнопки : Поиск</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1550769642790" stop="1550769642890" status="passed">
+                    <name>Когда сохранный элемент проверен:"Проверен"</name>
+                    <title>Когда сохранный элемент проверен:"Проверен"</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1550769642791" stop="1550769642890" status="passed">
+                            <name>enterElemSearch[Проверен]</name>
+                            <title>Проверка названия продукта : Проверен</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Заявка на ДМС"/>
+                <label name="feature" value="Страхование"/>
+                <label name="host" value="DESKTOP-LSKK0O3"/>
+                <label name="thread" value="13924@DESKTOP-LSKK0O3.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Страхование"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
